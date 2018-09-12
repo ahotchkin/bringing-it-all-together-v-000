@@ -82,5 +82,8 @@ class Dog
     end.first
   end
 
+  def update
+  emd
+
 
 end
