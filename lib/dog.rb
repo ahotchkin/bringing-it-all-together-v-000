@@ -84,11 +84,8 @@ class Dog
   end
 
   def update
-    sql = <<-SQL
-      SELECT * FROM dogs
-      WHERE name = ?, breed = ?
-      LIMIT 1
-    SQL
+    sql = "UPDATE dogs SET name = ?, breed = ? WHERE id = ?"
+    DB[:conn].execute(sql, self.id, self.name, self.breed)
   end
 
 
