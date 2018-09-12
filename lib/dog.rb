@@ -83,7 +83,10 @@ class Dog
   end
 
   def update
-  emd
+    sql = <<-SQL
+      
+    SQL
+  end
 
 
 end
