@@ -39,7 +39,7 @@ class Dog
     end
     #
     # # is this the best way to return the instance?
-    # self
+    self
     # # need to incorporate the #update
   end
 
