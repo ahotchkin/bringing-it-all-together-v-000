@@ -85,7 +85,9 @@ class Dog
 
   def update
     sql = <<-SQL
-
+      SELECT * FROM dogs
+      WHERE name = ?, breed = ?
+      LIMIT 1
     SQL
   end
 
