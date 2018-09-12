@@ -40,7 +40,6 @@ class Dog
     #
     # # is this the best way to return the instance?
     self
-    # # need to incorporate the #update
   end
 
   def self.create(name:, breed:)
